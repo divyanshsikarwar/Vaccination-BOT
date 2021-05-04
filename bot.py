@@ -6,8 +6,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 import time
 import re
-import os.path
-from os import path
 import sqlite3
 import schedule
 from datetime import datetime
@@ -48,7 +46,7 @@ def start_browser():
 
 	global driver
 	
-	driver = webdriver.Chrome(r"C:\Users\Divyansh Sikarwar\Documents\VS Code\Vaccine BOT\chromedriver")
+	driver = webdriver.Chrome(r"chromedriver")
 	driver.get(URL)
 
 	WebDriverWait(driver,10000).until(EC.visibility_of_element_located((By.TAG_NAME,'body')))
@@ -126,22 +124,3 @@ body > app-root > div > app-home > div.maplocationblock.bs-section > div > appoi
 body > app-root > div > app-home > div.maplocationblock.bs-section > div > appointment-table > div > div > div > div > div > div > div > div > div > div > div:nth-child(2) > form > div > div > div.col-padding.matlistingblock > div > div > div > div:nth-child(2)
 body > app-root > div > app-home > div.maplocationblock.bs-section > div > appointment-table > div > div > div > div > div > div > div > div > div > div > div:nth-child(2) > form > div > div > div.col-padding.matlistingblock > div > div > div > div:nth-child(3)
 '''
-
-Traceback (most recent call last):
-  File "main.py", line 113, in <module>
-    start_browser()
-  File "main.py", line 49, in start_browser
-    driver = webdriver.Chrome(r"chromedriver")
-  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 76, in __init__
-    RemoteWebDriver.__init__(
-  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
-    self.start_session(capabilities, browser_profile)
-  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
-    response = self.execute(Command.NEW_SESSION, parameters)
-  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: crashed.
-  (unknown error: DevToolsActivePort file doesn't exist)
-  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
