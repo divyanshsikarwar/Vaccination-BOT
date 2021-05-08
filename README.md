@@ -9,7 +9,7 @@ Vaccination Bot is a Bot created for personal use vaccination availability check
 * [Install Requests](https://pypi.org/project/requests/)
 
 
-## Steps :
+### Steps :
 
 1. Install Libraries as listed up using your terminal/command prompt.
 2. Download and save both the py files in a folder. [Download files form a repo on github](https://www.itprotoday.com/development-techniques-and-management/how-do-i-download-files-github#:~:text=To%20download%20from%20GitHub%2C%20you,including%20the%20area%20you%20wanted.)
