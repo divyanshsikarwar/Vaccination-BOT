@@ -12,7 +12,7 @@ Vaccination Bot is a Bot created for personal use vaccination availability check
 ## Steps :
 
 1. Install Libraries as listed up using your terminal/command prompt.
-2. Download and save both the py files in a folder.[Download files form a repo on github](https://www.itprotoday.com/development-techniques-and-management/how-do-i-download-files-github#:~:text=To%20download%20from%20GitHub%2C%20you,including%20the%20area%20you%20wanted.)
+2. Download and save both the py files in a folder. [Download files form a repo on github](https://www.itprotoday.com/development-techniques-and-management/how-do-i-download-files-github#:~:text=To%20download%20from%20GitHub%2C%20you,including%20the%20area%20you%20wanted.)
 3. Get Your Discord URL (link also given in discord_webhook.py file) and paste it inside discord_webhook.py file. [Get Discord Webhook URL](https://help.dashe.io/en/articles/2521940-how-to-create-a-discord-webhook-url) 
 4. Open folder in a Python compiler Pycharm/VScode or download if you dont have any. [Download VS Code and setup Python](https://code.visualstudio.com/docs/python/python-tutorial)
 5. Run the file and input whatever code asks.
