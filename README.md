@@ -12,7 +12,8 @@ Vaccination Bot is a Bot created for personal use vaccination availability check
 * [Install Discod_Webhook](https://pypi.org/project/discord-webhook/)
 * [Install Datetime](https://pypi.org/project/DateTime/)
 * [Install Requests](https://pypi.org/project/requests/)
-
+* [Install Selenium](https://pypi.org/project/selenium/)
+* [Install WebDriver-Manager](https://pypi.org/project/webdriver-manager/)
 
 ### Steps :
 
