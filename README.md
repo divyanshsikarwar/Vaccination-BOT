@@ -1,4 +1,4 @@
-### Vaccination BOT
+# Vaccination BOT
 
 Vaccination Bot is a Bot created for personal use vaccination availability check, Basically now you dont have to go and check CoWin.gov.in to check if there is any vaccine slots available or not, Vaccination Bot is here to assist. Just follow the steps below deploy the bot on your PC and sit back and relax untill you will contstantly get notification regarding available slots so that you can focus on your important work.
 
