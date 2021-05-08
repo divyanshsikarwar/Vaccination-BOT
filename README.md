@@ -2,8 +2,10 @@
 <div align="center">
   <img src="https://img.shields.io/badge/User%20Count-8-blue" alt="102 items">    <img id="last-update-badge" src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4%EF%B8%8F-green" alt="Last update: April 24, 2021">    <img src="https://img.shields.io/badge/Libraries-Discord-red" alt="Updated for Node 14.0.0">    <img src="https://img.shields.io/badge/Libraries-Discord--Webhook-red" alt="Updated for Node 14.0.0">    <img src="https://img.shields.io/badge/Last%20Update-4%2F%20May%2F%202024-yellowgreen" alt="Updated for Node 14.0.0">
 </div>
+
+
 # Vaccination BOT
-https://img.shields.io/badge/Last%20Update-4%2F%20May%2F%202024-yellowgreen
+
 Vaccination Bot is a Bot created for personal use vaccination availability check, Basically now you dont have to go and check CoWin.gov.in to check if there is any vaccine slots available or not, Vaccination Bot is here to assist. Just follow the steps below deploy the bot on your PC and sit back and relax untill you will contstantly get notification regarding available slots so that you can focus on your important work.
 
 ## Documentation
